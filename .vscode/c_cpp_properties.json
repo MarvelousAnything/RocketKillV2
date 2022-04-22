@@ -1,0 +1,74 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/Users/owen_hayes/coding/Arduino/RocketKillV2/include",
+                "/Users/owen_hayes/coding/Arduino/RocketKillV2/src",
+                "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/MPU6050/src",
+                "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Servo/src",
+                "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/SD/src",
+                "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit BMP3XX Library",
+                "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit BusIO",
+                "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit Unified Sensor",
+                "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/variants/micro",
+                "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/Users/owen_hayes/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/Users/owen_hayes/coding/Arduino/RocketKillV2/include",
+                    "/Users/owen_hayes/coding/Arduino/RocketKillV2/src",
+                    "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/MPU6050/src",
+                    "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Servo/src",
+                    "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/SD/src",
+                    "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit BMP3XX Library",
+                    "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit BusIO",
+                    "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit Unified Sensor",
+                    "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/variants/micro",
+                    "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/Users/owen_hayes/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50205",
+                "ARDUINO_AVR_MICRO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "USB_VID=0x2341",
+                "USB_PID=0x8037",
+                "USB_PRODUCT=\"Arduino Micro\"",
+                "USB_MANUFACTURER=\"Arduino\"",
+                "__AVR_ATmega32U4__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/Users/owen_hayes/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega32u4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

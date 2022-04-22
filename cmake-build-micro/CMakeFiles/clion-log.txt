@@ -1,0 +1,4 @@
+"/Users/owen_hayes/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/CLion.app/Contents/bin/cmake/mac/bin/cmake" -DCMAKE_BUILD_TYPE=micro "-DCMAKE_MAKE_PROGRAM=/Users/owen_hayes/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/CLion.app/Contents/bin/ninja/mac/ninja" -G Ninja -S /Users/owen_hayes/coding/Arduino/RocketKillV2 -B /Users/owen_hayes/coding/Arduino/RocketKillV2/cmake-build-micro
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/owen_hayes/coding/Arduino/RocketKillV2/cmake-build-micro

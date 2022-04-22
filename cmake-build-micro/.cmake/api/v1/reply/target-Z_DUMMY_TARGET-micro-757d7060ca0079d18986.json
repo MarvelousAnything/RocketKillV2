@@ -1,0 +1,1421 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Z_DUMMY_TARGET"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CMakeListsPrivate.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 33,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 25,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 26,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 32,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 29,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 33,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 37,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 38,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 41,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 44,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 45,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 46,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 49,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 50,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 51,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 52,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega32u4"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_AVR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_AVR_MICRO"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "F_CPU=16000000L"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "PLATFORMIO=50205"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "USB_MANUFACTURER=\"Arduino\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "USB_PID=0x8037"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USB_PRODUCT=\"Arduino Micro\""
+				},
+				{
+					"backtrace" : 12,
+					"define" : "USB_VID=0x2341"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__AVR_ATmega32U4__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/MPU6050/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Servo/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/SD/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit BMP3XX Library"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit BusIO"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit Unified Sensor"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/cores/arduino"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/variants/micro"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/HID/src"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/Users/owen_hayes/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/Users/owen_hayes/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/Users/owen_hayes/.platformio/packages/toolchain-atmelavr/avr/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/Users/owen_hayes/.platformio/packages/tool-unity"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				7,
+				19,
+				21,
+				24,
+				41,
+				66,
+				68,
+				86,
+				88,
+				91,
+				97,
+				99,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				132
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11 -fno-fat-lto-objects -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega32u4"
+				},
+				{
+					"fragment" : "-std=gnu11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "ARDUINO=10808"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ARDUINO_ARCH_AVR"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "ARDUINO_AVR_MICRO"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "F_CPU=16000000L"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "PLATFORMIO=50205"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "USB_MANUFACTURER=\"Arduino\""
+				},
+				{
+					"backtrace" : 10,
+					"define" : "USB_PID=0x8037"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "USB_PRODUCT=\"Arduino Micro\""
+				},
+				{
+					"backtrace" : 12,
+					"define" : "USB_VID=0x2341"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "__AVR_ATmega32U4__"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 14,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/include"
+				},
+				{
+					"backtrace" : 15,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/src"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/MPU6050/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Servo/src"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/SD/src"
+				},
+				{
+					"backtrace" : 19,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit BMP3XX Library"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit BusIO"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/SPI/src"
+				},
+				{
+					"backtrace" : 22,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/Wire/src"
+				},
+				{
+					"backtrace" : 23,
+					"path" : "/Users/owen_hayes/coding/Arduino/RocketKillV2/.pio/libdeps/micro/Adafruit Unified Sensor"
+				},
+				{
+					"backtrace" : 24,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/cores/arduino"
+				},
+				{
+					"backtrace" : 25,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/variants/micro"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src"
+				},
+				{
+					"backtrace" : 27,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/HID/src"
+				},
+				{
+					"backtrace" : 28,
+					"path" : "/Users/owen_hayes/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src"
+				},
+				{
+					"backtrace" : 29,
+					"path" : "/Users/owen_hayes/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include"
+				},
+				{
+					"backtrace" : 30,
+					"path" : "/Users/owen_hayes/.platformio/packages/toolchain-atmelavr/lib/gcc/avr/7.3.0/include-fixed"
+				},
+				{
+					"backtrace" : 31,
+					"path" : "/Users/owen_hayes/.platformio/packages/toolchain-atmelavr/avr/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/Users/owen_hayes/.platformio/packages/tool-unity"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				10
+			]
+		}
+	],
+	"id" : "Z_DUMMY_TARGET::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -Os -Wall -ffunction-sections -fdata-sections -flto -mmcu=atmega32u4",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Z_DUMMY_TARGET",
+	"nameOnDisk" : "Z_DUMMY_TARGET",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				7,
+				10,
+				19,
+				21,
+				24,
+				41,
+				66,
+				68,
+				86,
+				88,
+				91,
+				97,
+				99,
+				120,
+				122,
+				124,
+				126,
+				128,
+				130,
+				132
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				9,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				63,
+				64,
+				65,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				87,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				112,
+				113,
+				116,
+				117,
+				118
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				8,
+				11,
+				12,
+				20,
+				22,
+				23,
+				25,
+				42,
+				67,
+				69,
+				70,
+				71,
+				72,
+				73,
+				89,
+				90,
+				92,
+				93,
+				94,
+				95,
+				96,
+				98,
+				119,
+				121,
+				123,
+				125,
+				127,
+				129,
+				131,
+				133
+			]
+		},
+		{
+			"name" : "Object Files",
+			"sourceIndexes" : 
+			[
+				61
+			]
+		},
+		{
+			"name" : "Resources",
+			"sourceIndexes" : 
+			[
+				62,
+				110,
+				111,
+				114,
+				115
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/imu_zero.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/.github/ISSUE_TEMPLATE.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/.github/PULL_REQUEST_TEMPLATE.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/.github/workflows/githubci.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/.gitignore",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/.piopm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/Adafruit_BMP3XX.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/Adafruit_BMP3XX.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/README.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/bmp3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/bmp3.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/bmp3_defs.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/examples/bmp3xx_simpletest/bmp3xx_simpletest.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BMP3XX Library/library.properties",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/.github/ISSUE_TEMPLATE.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/.github/PULL_REQUEST_TEMPLATE.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/.github/workflows/githubci.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/.piopm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/Adafruit_BusIO_Register.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/Adafruit_BusIO_Register.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/Adafruit_I2CDevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/Adafruit_I2CDevice.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/Adafruit_I2CRegister.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/Adafruit_SPIDevice.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/Adafruit_SPIDevice.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/CMakeLists.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/README.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/component.mk",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/examples/i2c_address_detect/i2c_address_detect.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/examples/i2c_readwrite/i2c_readwrite.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/examples/i2c_registers/i2c_registers.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/examples/i2corspi_register/i2corspi_register.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/examples/spi_modetest/spi_modetest.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/examples/spi_readwrite/spi_readwrite.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/examples/spi_register_bits/spi_register_bits.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/examples/spi_registers/spi_registers.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit BusIO/library.properties",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit Unified Sensor/.github/workflows/githubci.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit Unified Sensor/.gitignore",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit Unified Sensor/.piopm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Adafruit Unified Sensor/Adafruit_Sensor.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit Unified Sensor/Adafruit_Sensor.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit Unified Sensor/LICENSE.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit Unified Sensor/README.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit Unified Sensor/examples/sensortest/sensortest.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Adafruit Unified Sensor/library.properties",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/.github/FUNDING.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/.github/workflows/LibraryBuild.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/.github/workflows/arduino-lint.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/.gitignore",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/.piopm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/README.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/examples/IMU_Zero/IMU_Zero.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/examples/MPU6050_DMP6/MPU6050_DMP6.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/examples/MPU6050_DMP6/Processing/MPUTeapot/MPUTeapot.pde",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/examples/MPU6050_DMP6_ESPWiFi/MPU6050_DMP6_ESPWiFi.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/examples/MPU6050_DMP6_ESPWiFi/Processing/MPUOSCTeapot/MPUOSCTeapot.pde",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/examples/MPU6050_DMP6_Ethernet/MPU6050_DMP6_Ethernet.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/examples/MPU6050_DMP6_using_DMP_V6v12/MPU6050_DMP6_using_DMP_V6v12.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/examples/MPU6050_DMP6_using_DMP_V6v12/MPUplane/MPUplane.pde",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/examples/MPU6050_DMP6_using_DMP_V6v12/MPUplane/data/biplane.obj",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/examples/MPU6050_DMP6_using_DMP_V6v12/MPUplane/data/diffuse_512.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/examples/MPU6050_raw/MPU6050_raw.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/keywords.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/library.properties",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/MPU6050/src/I2Cdev.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/src/I2Cdev.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/MPU6050/src/MPU6050.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/src/MPU6050.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/src/MPU6050_6Axis_MotionApps20.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/src/MPU6050_6Axis_MotionApps_V6_12.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/src/MPU6050_9Axis_MotionApps41.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/MPU6050/src/helper_3dmath.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/.piopm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/.travis.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/README.adoc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/examples/CardInfo/CardInfo.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/examples/Datalogger/Datalogger.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/examples/DumpFile/DumpFile.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/examples/Files/Files.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/examples/NonBlockingWrite/NonBlockingWrite.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/examples/ReadWrite/ReadWrite.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/examples/listfiles/listfiles.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/keywords.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/library.properties",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/SD/src/File.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/src/README.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/SD/src/SD.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/src/SD.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/src/utility/FatStructs.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/SD/src/utility/Sd2Card.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/src/utility/Sd2Card.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/src/utility/Sd2PinMap.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/src/utility/SdFat.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/src/utility/SdFatUtil.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/src/utility/SdFatmainpage.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/SD/src/utility/SdFile.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/SD/src/utility/SdInfo.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/SD/src/utility/SdVolume.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/.codespellrc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/.github/dependabot.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/.github/workflows/check-arduino.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/.github/workflows/compile-examples.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/.github/workflows/report-size-deltas.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/.github/workflows/spell-check.yml",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/.piopm",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/LICENSE.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/README.adoc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/examples/Knob/Knob.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/examples/Knob/images/knob_BB.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/examples/Knob/images/knob_schem.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/examples/Knob/readme.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/examples/Sweep/Sweep.ino",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/examples/Sweep/images/sweep_bb.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/examples/Sweep/images/sweep_schem.png",
+			"sourceGroupIndex" : 4
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/examples/Sweep/readme.md",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/keywords.txt",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/library.properties",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/src/Servo.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Servo/src/avr/Servo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/src/avr/ServoTimers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Servo/src/mbed/Servo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/src/mbed/ServoTimers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Servo/src/megaavr/Servo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/src/megaavr/ServoTimers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Servo/src/nrf52/Servo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/src/nrf52/ServoTimers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Servo/src/sam/Servo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/src/sam/ServoTimers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Servo/src/samd/Servo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/src/samd/ServoTimers.h",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : ".pio/libdeps/micro/Servo/src/stm32f4/Servo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : ".pio/libdeps/micro/Servo/src/stm32f4/ServoTimers.h",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "EXECUTABLE"
+}
